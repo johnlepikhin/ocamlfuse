@@ -9,7 +9,7 @@ THREADS=threads
 TRASH=*~ \\\#*
 CFLAGS+=-D_FILE_OFFSET_BITS=64 -I. -pthread
 
-LIBINSTALL_FILES=Fuse.a Fuse.cma Fuse.cmi Fuse.cmxa Fuse_bindings.cmi Fuse_lib.cmi Unix_util.cmi dllFuse_stubs.so libFuse_stubs.a
+LIBINSTALL_FILES=Fuse.a Fuse.cma Fuse.cmi Fuse.cmxa Fuse_bindings.cmi Fuse_lib.cmi Unix_util.cmi dllFuse_stubs.so libFuse_stubs.a META
 ifndef OCAML_LIB_INSTALL
 	OCAML_LIB_INSTALL=$(OCAMLLIBPATH)/fuse
 endif
