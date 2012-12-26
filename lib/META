@@ -1,0 +1,6 @@
+version = "2.7.1"
+name = "fuse"
+requires = "bigarray"
+description = "Ocaml FUSE"
+archive(byte) = "Fuse.cma"
+archive(native) = "Fuse.cmxa"
